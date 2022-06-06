@@ -1,0 +1,34 @@
+The data set contains some features that were collected just once (at the time of patient's ICU admission), while other features were continuously monitored during the course of the patient's stay. 
+
+Features which were just collected once, include:
+1. PATIENT_ID : Unique patient identifier
+2. Age        : Patient's Age
+3. Gender     : Patient's Gender (0: Female, 1: Male)
+4. Height     : Patient's Height
+5. ICUType    : (1: Coronary Care Unit, 2: Cardiac Surgery Recovery Unit, 3: Medical ICU, or 4: Surgical ICU)
+6. In-hospital_death : In-hospital death (0: survivor, or 1: died in-hospital)
+ 
+Features which were recorded multiple times during the patient's stay have been converted to derived features based on their statistics (Minimum, Maximum, Mean, Median & Range). Features which may have been recorded multiple times for individual patients include:
+1. BUN : Blood urea nitrogen level (mg/dL)
+2. Creatinine : Creatinine level (mg/dL)
+3. GCS : Glasgow Coma Scale   (3-15)
+4. Glucose : Blood Glucose level (mg/dL)
+5. HCO3 : Serum Bicarbonate level (mmll/L)
+6. HCT : Percentage Hematocrit 
+7. HR : Heart rate (bpm)
+8. K : Serum Potassium level (mEq/L)
+9. Mg: Serum Magnesium level (mmol/L)
+10. NIDiasABP : Non-invasive diastolic arterial blood pressure (mmHg)
+11. NIMAP : Non-invasive mean arterial blood pressure (mmHg)
+12. NISysABP : Non-invasive systolic arterial blood pressure
+13. Na : Serum sodium level (mEq/L)
+14. PaCO2 : Partial pressure of arterial CO2 (mmHg)
+15. PaO2 : Partial pressure of arterial O2 (mmHg)
+16. Platelets : Number of cells/nL
+17. Temp : Temperature (degree C)
+18. Urine : Urine output mL
+19. WBC :  White blood cell count (cells/nL)
+20. Weight : Patient's weight (Kg)
+21. pH : Blood pH (normal pH range of blood is 7.35 to 7.45)
+
+The derived features have been named based on the parent feature and the statistical function used to derive that feature; e.g. Bun_Min, Bun_Max etc. 
